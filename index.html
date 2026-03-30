@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>El Faro - Inicio</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; margin:0; line-height:1.5; background:#fafbfc; }
+    header, nav, footer { padding:12px 16px; }
+    header { display:flex; align-items:center; gap:12px; background:#0d1b2a; color:#fff; }
+    nav { background:#e5eaf0; display:flex; gap:16px; }
+    nav a { text-decoration:none; color:#0d1b2a; font-weight:600; }
+    main { padding:16px; max-width:1100px; margin:auto; background:#fff; }
+    table { width:100%; border-collapse:collapse; margin-top:8px; }
+    th, td { border:1px solid #cfd8dc; padding:8px; text-align:left; vertical-align:top; }
+    th { background:#f5f7fa; }
+    .media { display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-top:16px; }
+    footer { background:#0d1b2a; color:#fff; text-align:center; }
+    @media (max-width:700px){ .media { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- assets/logo.png -->
+    <h1 style="margin:0">El Faro</h1>
+  </header>
+
+  <nav aria-label="Navegación principal">
+    <a href="index.html">Inicio</a>
+    <a href="deporte.html">Deporte</a>
+    <a href="negocios.html">Negocios</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Noticias generales</h2>
+      <table>
+        <thead>
+          <tr><th>Título</th><th>Categoría</th><th>Descripción</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Municipio anuncia plan de iluminación</td><td>Actualidad</td><td>Recambio a luminarias LED en barrios con baja visibilidad nocturna.</td></tr>
+          <tr><td>Feria gastronómica atrae a emprendedores</td><td>Cultura</td><td>Propuestas culinarias con identidad regional.</td></tr>
+          <tr><td>Nueva ciclovía conecta sectores clave</td><td>Transporte</td><td>Mejora seguridad y movilidad en horas punta.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="media" style="margin-top:24px">
+      <article>
+        <h3>Video destacado</h3>
+        <!--
+        <video controls width="100%" poster="assets/logo.png" preload="metadata">
+          <source src="assets/video.mp4" type="video/mp4ets/video.mp4 video</a>.</p>
+        </video>
+        -->
+        <p><em>Pendiente: se agregará video.mp4 en assets/</em></p>
+      </article>
+      <article>
+        <h3>Podcast / Audio del día</h3>
+        <!--
+        <audio controls preload="metadata" style="width:100%">
+          <source src="assets/audio.mp3" type="audio/mp3soporta audio HTML5. <a href="assets/audio.mp3 audio</a>.</p>
+        </audio>
+        -->
+        <p><em>Pendiente: se agregará audio.mp3 en assets/</em></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <small>Periódico El Faro — 2026</small>
+  </footer>
+</body>
+</html>
+``
